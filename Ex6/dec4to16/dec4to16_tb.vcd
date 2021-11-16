@@ -1,0 +1,49 @@
+$date
+	Tue Nov 16 14:58:24 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module dec4to16_tb $end
+$var wire 16 ! y [15:0] $end
+$var reg 1 " A $end
+$var reg 1 # B $end
+$var reg 1 $ C $end
+$var reg 1 % D $end
+$scope module uut $end
+$var wire 1 " A $end
+$var wire 1 & A0 $end
+$var wire 1 $ B $end
+$var wire 1 ' B0 $end
+$var wire 1 # C $end
+$var wire 1 ( C0 $end
+$var wire 1 % D $end
+$var wire 1 ) D0 $end
+$var wire 1 * f1 $end
+$var wire 1 + f2 $end
+$var wire 1 , f3 $end
+$var wire 1 - f4 $end
+$var wire 16 . y [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx000x000x000x000 .
+z-
+z,
+z+
+z*
+0)
+0(
+0'
+0&
+1%
+1$
+1#
+1"
+bx000x000x000x000 !
+$end
